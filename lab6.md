@@ -37,7 +37,7 @@
 ![image](https://user-images.githubusercontent.com/80880340/112411437-7df3e200-8d4f-11eb-85f0-8e58d6381cd2.png)
 
 
-4. ใช้คอมพิวเตอร์ชคการเชื่อมจากโทรศัพท์ค้นหาไวไฟจาก EPS-01
+4. รันโปรแกรม
 
 ![12](https://user-images.githubusercontent.com/80879653/112208673-32581000-8c4b-11eb-8132-0b27191109b6.png)
 
