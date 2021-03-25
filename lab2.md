@@ -4,6 +4,8 @@
 
 1. เพื่อใช้ในการค้นหาไวไฟรอบๆ และ สามารถบอกความแรงของสัญญาณไวไฟบริเวณนั้นได้
 
+2.เพื่อทราบวิธีการรันโปรแกรม microcontrolor
+
 
 ## อุปกรณ์ที่ใช้
 
@@ -22,3 +24,29 @@
 * เรียนรู้ ESP-01   https://docs.platformio.org/en/latest/boards/espressif8266/esp01_1m.html
 
 * การต่อวงจร Microcontroller และการเขียนโปรแกรมควบคุมเบื้องต้น https://learninginventions.org/?page_id=2198
+
+## วิธีการทำการทดลอง
+
+1.เชื่อมไมโครคอนโทรลเลอร์เข้ากับserial port
+
+![image](https://user-images.githubusercontent.com/80880340/112398945-d3bc9000-8d37-11eb-89f5-e1b5b1e391d0.png)
+
+2.เข้าโฟลเดอร์ไฟล์ตัวอย่างและทำการเลือกตัวอย่างที่ต้องการใช้
+
+![image](https://user-images.githubusercontent.com/80880340/112398975-ecc54100-8d37-11eb-9a14-d190c42e3834.png)
+
+3.ทำการอัปโหลดโปรแกรมเข้าไมโครคอนโทรลเลอร์
+
+![image](https://user-images.githubusercontent.com/80880340/112399013-04042e80-8d38-11eb-850b-37222c903273.png)
+
+4.กดปุ่มดำเพื่อติดตั้งและกดปุ่มแดงเพื่อรีเซ็ตค่าเดิม
+
+![image](https://user-images.githubusercontent.com/80880340/112399082-272ede00-8d38-11eb-92fa-80865e804c90.png)
+
+5.พิมพ์คำสั่งรันเพื่อแสดงผล
+
+![image](https://user-images.githubusercontent.com/80880340/112399120-39a91780-8d38-11eb-961a-a2f2e253d905.png)
+
+## การบันทึกผลการทดลอง
+
+การทดลองค้นหาไวไฟบริเวณรอบๆ microcontrollor ปรากฏว่าบางครั้งพบ 2ตัว บางครั้งพบ 4ตัว ขึ้นอยู่กับความแรงของสัญญาณที่ได้รับ จากที่ปราฏกให้เห็นจะมี MASTER BEDROOM 2.4GHz (-89),TEN (-80) , Homiebody(-90) เป็นต้นการทดลองค้นหาไวไฟบริเวณรอบๆ microcontrollor ปรากฏว่าบางครั้งพบ 2ตัว บางครั้งพบ 4ตัว ขึ้นกับความแรงของสัญญาณที่ได้รับ จากที่ปราฏกให้เห็นจะมี MASTER BEDROOM 2.4GHz (-89),TEN (-80) , Homiebody(-90) เป็นต้น
