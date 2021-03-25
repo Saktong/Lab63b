@@ -21,9 +21,14 @@
 ## วิธีการทำการทดลอง
 
 1. เปิดตัวอย่างโปรแกรมที่5
-2. เนื่องจากต้องเชื่อมต่อกับไวไฟ ต้องใส่ชื่อไวไฟ และรหัสผ่าน ดังรูป
-![1   coad](https://user-images.githubusercontent.com/80879653/112203861-91b32180-8c45-11eb-92b0-54bb56147253.png)
-![Uploading 2. set up.png…]()
+
+2. ตั้งค่าโปรแกรมโดยทำการเชื่อมต่อwifi โดยป้อนชื่อwifiและรหัสผ่าน
+
+![image](https://user-images.githubusercontent.com/80880340/112405002-04a2c200-8d44-11eb-86cc-6dff3a445803.png)
+
+![image](https://user-images.githubusercontent.com/80880340/112405019-0d939380-8d44-11eb-81b9-46f920f60d00.png)
+
+
 3. โปรแกมมี2 ส่วนคือ set up เป้นการเชื่อมต่อไวไฟที่เลือกไว้ เซตอับเว็บเซฟ โดยจะแสดงผลเป็ฯ hello cnt โดยแสดงผลเพิ่มละ 1 เรื่อยๆ 
 ![3](https://user-images.githubusercontent.com/80879653/112204122-e6ef3300-8c45-11eb-822d-7b548aacb567.png)
 4. pio -t upload อัปโหลดโปรแกรมไว้ที่ microcotrollor โดยเสียบไปที่ USB2Serial converter และทำการกดปุ่ม เพื่ออัปโหลด
