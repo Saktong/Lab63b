@@ -34,7 +34,7 @@
 
 1. ต่อหลอดไฟเข้ากับ Microcontroller
 
-https://www.myarduino.net/article/88/%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-arduino-%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%93-analog-output-pwm-%E0%B8%84%E0%B8%A7%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%A1%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87-%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%9F-%E0%B8%AB%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B9%84%E0%B8%9F-led
+![image](https://user-images.githubusercontent.com/80880340/113245510-536ecf80-92e1-11eb-88dc-2880ab0f2024.png)
 
 2. อัพโหลดโค้ดตามด้านล่าง
 
