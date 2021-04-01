@@ -38,21 +38,21 @@
 
 2. อัพโหลดโค้ดตามด้านล่าง
 
-https://www.myarduino.net/article/88/%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-arduino-%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%93-analog-output-pwm-%E0%B8%84%E0%B8%A7%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%A1%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87-%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%9F-%E0%B8%AB%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B9%84%E0%B8%9F-led
+![image](https://user-images.githubusercontent.com/80880340/113245741-c0826500-92e1-11eb-9be9-a821e1fc5513.png)
 
 3. กำหนดสัญญาณ PWM ในช่วง 0-255  ค่า 0 จะเท่ากับ 0v ค่า 255 จะเท่ากับ 5v
 
-https://www.myarduino.net/article/88/%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-arduino-%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%93-analog-output-pwm-%E0%B8%84%E0%B8%A7%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%A1%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87-%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%9F-%E0%B8%AB%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B9%84%E0%B8%9F-led
+![image](https://user-images.githubusercontent.com/80880340/113245674-9c268880-92e1-11eb-9cd8-e34f4fe7eec9.png)
 
 4. จากตัวอย่างโค้ดจะเห็นว่า ไฟจะค่อยๆสว่างและค่อยๆหรี่จนดับลงตามรูป
 
-https://www.myarduino.net/article/88/%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-arduino-%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%93-analog-output-pwm-%E0%B8%84%E0%B8%A7%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%A1%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87-%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%9F-%E0%B8%AB%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B9%84%E0%B8%9F-led
+![image](https://user-images.githubusercontent.com/80880340/113245809-e4de4180-92e1-11eb-8260-654fd236e5e0.png)
 
-https://www.myarduino.net/article/88/%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-arduino-%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%93-analog-output-pwm-%E0%B8%84%E0%B8%A7%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%A1%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87-%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%9F-%E0%B8%AB%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B9%84%E0%B8%9F-led
+![image](https://user-images.githubusercontent.com/80880340/113245856-03dcd380-92e2-11eb-8c91-9ea2589dbfcc.png)
 
 5. ในโค้ดตัวอย่างจะใช้ for วนลูปค่อยๆประความสว่าง ค่าจะ เพิ่ม และ ลดลง ที่ละ 1
 
-https://www.myarduino.net/article/88/%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-arduino-%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%93-analog-output-pwm-%E0%B8%84%E0%B8%A7%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%A1%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87-%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%9F-%E0%B8%AB%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B9%84%E0%B8%9F-led
+![image](https://user-images.githubusercontent.com/80880340/113245959-3686cc00-92e2-11eb-9498-8ded7f221deb.png)
 
  ## การบันทึกผลการทดลอง
 
